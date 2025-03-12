@@ -1,4 +1,7 @@
 
+def computed_error(b, m, data):
+    
+
 from numpy import *
 
 def run():

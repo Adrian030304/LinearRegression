@@ -15,6 +15,6 @@ def run():
 
     [b, m] = gradient_descent_run(collected_data, init_b, init_m, learning_rate)
 
-    print("Starting gradient descent at b = {0}, m = {1}, error = {2}".format(init_b, init_m, computed_error(init_b, init_m, collected_data)))
+    print("Ending gradient descent at b = {0}, m = {1}, error = {2}".format(iteration_count, b, m, computed_error(b, m, collected_data)))
 if __name__ == "__main__":
     run()

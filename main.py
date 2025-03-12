@@ -2,8 +2,10 @@
 from numpy import *
 
 def run():
-    pass
+    collected_data = None
+    
+    
 
 
-if __main__ == "__main__":
+if __name__ == "__main__":
     run()
